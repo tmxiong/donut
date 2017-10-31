@@ -83,7 +83,7 @@ export default class loadingModal extends PureComponent {
 
         this.state = {
             animating: false,
-            updateState: 2,// 0->是否更新；1->正在更新；2->更新失败
+            updateState: 0,// 0->是否更新；1->正在更新；2->更新失败
         };
         this.isConnected = true;
         this.isDownloading = false;
